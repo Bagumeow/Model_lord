@@ -4,16 +4,13 @@ import streamlit as st
 import pandas as pd
 from underthesea import word_tokenize
 import re
-from underthesea import sent_tokenize,word_tokenize
-import re
-import nltk
-from textblob import TextBlob
-from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
-from textblob import Word
-from nltk.util import ngrams
-from wordcloud import WordCloud, STOPWORDS
-from nltk.tokenize import word_tokenize, sent_tokenize
+# import nltk
+# from textblob import TextBlob
+# from nltk.corpus import stopwords
+# from nltk.stem import PorterStemmer
+# from textblob import Word
+# from nltk.util import ngrams
+# from nltk.tokenize import word_tokenize, sent_tokenize
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
